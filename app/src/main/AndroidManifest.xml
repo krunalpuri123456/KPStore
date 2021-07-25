@@ -9,7 +9,9 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.KPStore">
-        <activity android:name=".MainActivity">
+
+        room:runtime<activity android:name=".View.NewWordActivity"></activity>
+        <activity android:name=".View.BaseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

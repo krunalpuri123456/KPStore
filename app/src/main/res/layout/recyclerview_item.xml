@@ -13,17 +13,16 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. -->
 
-<resources>
-    <color name="colorPrimary">#0000FF</color>
-    <color name="colorPrimaryDark">#0000e5</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="buttonLabel">#d3d3d3</color>
-    <color name="noteBackground">#F0C033</color>
-    <color name="purple_500">#FF4081</color>
-    <color name="white">#ffffff</color>
-    <color name="teal_200">#F0C033</color>
-    <color name="purple_200">#F0C033</color>
-    <color name="teal_700">#FF4081</color>
-    <color name="purple_700">#FF4081</color>
-    <color name="black">#000000</color>
-</resources>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:cardElevation="8dp">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/word_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>
